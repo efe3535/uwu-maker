@@ -1,7 +1,7 @@
 use std::env;
 
 fn main() {
-    let letters: [&str; 6] = ["a", "e", "i", "o", "e", "u"];
+    let letters: [&str; 5] = ["a", "e", "i", "o" "u"];
     let mut uwud: String = "".to_string();  
     let mut args: Vec<String> = env::args().collect();
     let progname: &str = &args.to_vec()[0];
